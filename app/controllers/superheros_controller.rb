@@ -12,7 +12,7 @@ class SuperherosController < ApplicationController
 
     def create
         superhero = Superhero.new(superhero_params)
-        render json: listing
+        render json: superhero
     end
 
     private
