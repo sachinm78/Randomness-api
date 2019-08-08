@@ -2,14 +2,17 @@ class SuperherosController < ApplicationController
 
     def index
         @superheroes = Superhero.all
+        render json: @superheroes
     end
 
     def show
         @superhero = Superhero.find_by(id: params[:id])
+        render json: @superhero
     end
 
-    def craete
+    def create
         superhero = Superhero.new(superhero_params)
+        render json: listing
     end
 
     private
