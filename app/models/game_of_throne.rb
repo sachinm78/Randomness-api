@@ -1,2 +1,0 @@
-class GameOfThrone < ApplicationRecord
-end
