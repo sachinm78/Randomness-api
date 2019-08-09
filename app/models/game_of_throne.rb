@@ -1,0 +1,2 @@
+class GameOfThrone < ApplicationRecord
+end
