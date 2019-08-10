@@ -6,14 +6,14 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-100.times do
-    Superhero.create(name: Faker::Superhero.unique.name, power: Faker::Superhero.unique.power, prefix: Faker::Superhero.prefix, suffix: Faker::Superhero.suffix)
-end
+# 100.times do
+#     Superhero.create(name: Faker::Superhero.unique.name, power: Faker::Superhero.unique.power, prefix: Faker::Superhero.prefix, suffix: Faker::Superhero.suffix)
+# end
 
-50.times do
-    Starwar.create(character: Faker::Movies::StarWars.unique.character, droid: Faker::Movies::StarWars.droid, planet: Faker::Movies::StarWars.planet, vehicle: Faker::Movies::StarWars.vehicle)
-end
+# 50.times do
+#     Starwar.create(character: Faker::Movies::StarWars.unique.character, droid: Faker::Movies::StarWars.droid, planet: Faker::Movies::StarWars.planet, vehicle: Faker::Movies::StarWars.vehicle)
+# end
 
-# 25.times do
-#     GameOfThrone.create(first_name: GOTFaker::Character.first_name, last_name: GOTFaker::Character.last_name, house: GOTFaker::House.name, city: Faker::TvShows::GameOfThrones.city)
+# 100.times do
+#     Hipster.create(sentence: Faker::Hipster.unique.sentence)
 # end
