@@ -19,5 +19,5 @@ end
 end
 
 200.times do
-    Hacker.create(sentence: Faker::Hacker.unique.say_something_smart)
+    Dev.create(sentence: Faker::Hacker.unique.say_something_smart)
 end
