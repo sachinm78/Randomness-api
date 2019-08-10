@@ -18,6 +18,6 @@ end
     Hipster.create(sentence: Faker::Hipster.unique.sentence)
 end
 
-# 200.times do
-#     Hacker.create(sentence: Faker::Hacker.unique.say_something_smart)
-# end
+200.times do
+    Hacker.create(sentence: Faker::Hacker.unique.say_something_smart)
+end
