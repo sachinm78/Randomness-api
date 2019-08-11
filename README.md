@@ -2,8 +2,6 @@
 
 Randomness-api is the Rails back-end api database manager for Randomness-client (https://github.com/sachinm78/Randomness-client), a React Front-end random generator web application.
 
-License information: MIT (see LICENSE)
-
 ## Installation and Connection Instructions
 
 This app is free to use.  To install this app: 
@@ -26,9 +24,5 @@ To connect to the Randomness database:
 ## Contributing
 
 This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
 Copyright (c) 2019 sachinm78
