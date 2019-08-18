@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   resources :starwars, only: [:index, :show, :create]
   resources :hipsters, only: [:index, :show, :create]
   resources :devs, only: [:index, :show, :create]
+  resources :feedbacks, only: [:index, :show, :create]
 
 end
