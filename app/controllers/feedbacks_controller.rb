@@ -11,7 +11,7 @@ class FeedbacksController < ApplicationController
     end
 
     def create
-        dev = Feedback.new(feedback_params)
+        dev = Feedback.create(feedback_params)
         render json: dev
     end
 
