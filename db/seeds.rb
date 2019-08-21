@@ -22,6 +22,5 @@ end
     Dev.create(sentence: Faker::Hacker.unique.say_something_smart)
 end
 
-5.times do
-    Feedback.create(name: Faker::Name.first_name, comment: Faker::Hacker.unique.say_something_smart)
-end
+Feedback.create(name: Faker::Name.first_name, comment: 'This is funny.')
+Feedback.create(name: Faker::Name.first_name, comment: 'Random...')
